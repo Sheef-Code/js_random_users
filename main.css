@@ -1,12 +1,19 @@
 * {
 box-sizing: border-box;
 margin: 0 auto;
+text-align: center;
 }
 
 img {
   max-width: 100%;
 }
 
+.main{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 /*-------RESPONSIVE DESIGN-------*/
